@@ -143,10 +143,10 @@ cs50p-python-projects/
 | `weather_api/` | Fetches live weather data using an API |
 | `1.report1.py` | Report generation script |
 | `2.game_history.py` | Tracks game history and scores |
-| `21_unit_convrsion.py` | Unit converter (length, weight, temp, etc.) |
+| `21_unit_convrsion.py` | Unit converter (single function for multiple conversions) |
 | `guess_no_game.py` | Number guessing game with hints |
 | `imprv_guess_no_game.py` | Improved version with better UX |
-
+|`rock_paper_scissor`| Rock, Paper, and Scissor Game|
 ---
 
 ## 💪 Extra Practice
@@ -156,7 +156,7 @@ Problems I solved from external sources to reinforce concepts:
 `celsius_to_fahrenheit` · `swap_number` · `num_reverser` · `odd_even_check` · `leap_year` · `euclidean_dist` · `triangle_possibility` · `profit_loss_calc` · `interest_finder` · `compound_interest` · `volume` · `div_by_3.6` · `weather` · `square` · `armstrong_num` · `narcissist_num` · `inhand_salary` · `dog_chicken` · and more
 
 ### `thonny_p/` — Logic & Pattern Programs
-`collatz_sequence` · `devision_by_zero` · `honesty` · `horiz_spike_pattern` · `password_check` · `Pyramid_of_stars` · `rock_paper_scissor` · `zigzag_pattern_maker` · and more
+`collatz_sequence` · `devision_by_zero` · `honesty` · `horiz_spike_pattern` · `password_check` · `Pyramid_of_stars`  · `zigzag_pattern_maker` · and more
 
 ---
 
