@@ -1,0 +1,16 @@
+s=input(":>")
+h , m = s.split(":")
+h , m = int(h), int(m)
+if 0<=h <=23 and 0<=m<=59:
+    if h >12:
+        h= h-12
+    #angle of min from 12
+    angl1= 6*m
+    #angle of hr hand from 12 
+    angl2 = h*5*6 
+    
+    angle_btw = abs(angl1-angl2)
+    if angle_btw>180:
+        print(360-angle_btw)
+    else: print(angle_btw)
+    
