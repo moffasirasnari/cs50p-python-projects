@@ -1,7 +1,6 @@
 #Meal time predictor
 def main():
       users_ans= input("What time is it? ")
-      convert(users_ans)
       time=convert(users_ans)
 
       if time >= 7 and time <= 8:

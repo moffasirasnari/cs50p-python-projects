@@ -3,7 +3,8 @@
 conversions =[["cm-ft",0.03,30.48,"cm","ft"],
               ["km-miles",0.62,1.6,"km","mile"],
               ["usd-inr",94,0.01,"USD","INR"]]
-# 1st(not 0th) index of 1st list is for cm-ft conversion,2nd index is for ft-cm
+# 1st(not 0th) index of 1st list is for cm-ft conversion constant,
+# 2nd index is for ft-cm constatn 
 #same for others
 
 def main():
@@ -25,7 +26,7 @@ def take_input(s): #take input untill integer
             else: 
                 print("Enter valid input!")
                 continue  
-        except ValueError:
+        except (ValueError,TypeError):
             print("Enter valid input!")
             continue
 

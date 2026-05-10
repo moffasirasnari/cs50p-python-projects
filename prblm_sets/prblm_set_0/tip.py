@@ -6,15 +6,13 @@ def main():
     tip = dollars * percent
     print(f"Leave ${tip:.2f}")
 
-
+#the input of user is expected to be start with $ sign
 def dollars_to_float(d):
      value=d.replace("$","")
      value=float(value)
      return value
 
-
-
-
+#the input of user is expected to be start with % sign
 def percent_to_float(p):
     value=p.replace("%","")
     value=float(value)

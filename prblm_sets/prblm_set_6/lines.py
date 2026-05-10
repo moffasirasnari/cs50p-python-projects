@@ -26,7 +26,8 @@ def num_line(s):
         with open(s,"r") as file:
             #lines = file.read()  #wrong only returns whole file as a single str
             lines = file.readlines()
-            #remeb there are to fn readline reads only one line at a time, readlines loads all lines as a list
+            #remeb there are to fn readline reads only one line at a time,
+            #readlines loads all lines as a list
 
     except FileNotFoundError:
         sys.exit("File does not exist")
